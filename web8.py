@@ -35,7 +35,7 @@ _list = [None] * len(stuff2)
 
 # combine each instrument name, abbreviation and price into one list
 for i in range(0,len(stuff2)):
-	stringy = "{0}           {1}   {2}".format("%-5s" % abv[i], "%-60s" % stuff2[i], "%8s" % prices[i])
+	stringy = "{0}           {1}   {2}".format("%-5s" % abv[i], "%-60s" % stuff2[i], "%7s" % prices[i])
 	_list[i] = stringy
 
 # sort the list alphabetically
