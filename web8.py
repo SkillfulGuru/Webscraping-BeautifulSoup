@@ -46,10 +46,7 @@ for i in sorted(_list):
 	print(i)
 	print("")
 
-# with open("output.txt", 'w+') as file_handler:
-    # for item in _list:
-        # file_handler.write("{}\n".format(item))
-
+# write list to txt file
 file = open("output.txt", "w+", encoding="utf-8")
 file.write('ABBREVIATION	INSTRUMENT						       PRICE	\n------------------------------------------------------------------------------------\n')
 			
